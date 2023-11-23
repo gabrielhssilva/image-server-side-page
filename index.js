@@ -17,6 +17,7 @@ app.get("/", (req, res) => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta property="og:title" content="BRB Completo - Certificado Engaja" />
         <meta property="og:image" content="${certificadoUrl}" />
+        <meta property="og:url" content="${certificadoUrl}" />
         <title>BRB Completo - Certificado Engaja</title>
       </head>
       <body style="padding: 0; margin:0; height: 100vh; overflow: hidden; display: flex; justify-content: center; align-items: center; background-color: #eaecf0;">
